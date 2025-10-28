@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [**中文**](./README.md) | [**English**](./README_EN.md)
 
 <p align="center" width="100%">
@@ -336,3 +337,6 @@ keywords = {Large Language Model, Medical Question Answering, Trustworthy Respon
 }
 ```
 
+=======
+# rag
+>>>>>>> 210398e696df530df5de67a62ae1fdb42658efef
