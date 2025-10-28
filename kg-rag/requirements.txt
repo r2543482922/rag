@@ -1,0 +1,7 @@
+torch>=2.1
+transformers>=4.35
+peft>=0.7
+py2neo>=2021.2.3
+ragatouille>=0.1
+accelerate>=0.24
+bitsandbytes>=0.41
