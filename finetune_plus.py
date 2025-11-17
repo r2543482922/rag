@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python3
 """
+未使用过
 finetune.py - LoRA/PEFT 微调脚本（改进版）
 主要改进点：
 - 更稳健的 tokenizer pad token 处理（避免直接写 pad_token_id = 0）
