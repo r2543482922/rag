@@ -1,6 +1,7 @@
 {
-  "description": "医学问答 + RAG",
-  "prompt_input": "### 知识：\n{knowledge}\n\n### 指令：\n{instruction}\n\n### 输入：\n{input}\n\n### 回答：",
-  "prompt_no_input": "### 知识：\n{knowledge}\n\n### 指令：\n{instruction}\n\n### 回答：",
-  "response_split": "### 回答："
+  "description": "Medical guided dialogue template for Chinese LLaMA-2.",
+  "prompt_input": "### Instruction:\n{instruction}\n\n### Context:\n{input}\n\n### Response:\n",
+  "prompt_no_input": "### Instruction:\n{instruction}\n\n### Response:\n",
+  "response_split": "### Response:",
+  "notes": "Instruction字段将包含'角色设定+引导规则+用户当前提问'，Context字段将包含'对话历史+RAG知识+用户补充信息'。"
 }
